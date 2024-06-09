@@ -13,7 +13,7 @@ def push(stk,item):
     
 def  s_pop(stk):
     if isEmpty(stk):
-        return('Underflow')
+        return ('Underflow')
     else:
         i=stk.pop()
         
@@ -27,7 +27,7 @@ def peek(stk):
     
 def display(stk):
     if isEmpty(stk):
-        return ('Underflow')
+        return('Underflow')
     else:
         top=len(stk)-1
         print(stk[top],'<---top')
@@ -45,13 +45,13 @@ while True:
     if n==1:
         item=int(input("Enter item : "))
         push(S,item)
-        print("%d item added successfully ",item)
+        print("%d item added successfully ",S)
         input("press key to continue..")
 
     elif n==2:
         item=s_pop(S)
-        if(item=='Underflow'):
-            print("Empty stack")
+        if (item=='Underflow'):
+            print("Stack is empty")
         else:
             print("Popped element : ",item)
         input("press key to continue..")
