@@ -1,5 +1,5 @@
 #operations on series
-('''import pandas as pd
+import pandas as pd
 s=pd.Series([0,2,4,6,7])
 print("Multiply all the elements with 2")
 print(s*2)
@@ -18,7 +18,7 @@ print(s+s2)
 print("Adding series s2 & s3")
 print(s2+s3)
 print("Adding series s2 & s3 printing 0 if index not found")
-print(s2.add(s3,fill_value=0))''')
+print(s2.add(s3,fill_value=0))
 
 #Head and tail functions in python
 import pandas as pd
